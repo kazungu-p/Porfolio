@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 50px;
+}
+.nav-section .logo{
+    height: 50px;
+    border-radius: 50%;
+}
+.nav-section ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 18px;
+}
+.nav-section a{
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 50px 0 50px;
+    border-radius: 10px;
+}
+.hero-text{
+    padding: 50px;
+}
+.hero-text button, input{
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 30px 5px 0 0;
+}
+.hero-text span{
+    color: purple;
+}
+.hero h1{
+    font-size: 50px;
+}
+.hero .image-container{
+    padding: 50px;
+}
+.profile-image{
+    border-radius: 10px;
+}
+.connect{
+    background-color: purple;
+    color: white;
+}
