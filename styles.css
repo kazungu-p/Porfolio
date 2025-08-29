@@ -3,11 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --mainColour: purple;
+}
 .nav-section{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 30px 50px;
+}
+.logo, .connect{
+    cursor: pointer;
+}
+.nav-center ul li a{
+    padding: 5px;
+    position: relative;
+}
+.nav-center ul li a::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: var(--mainColour);
+    transition:width 0.3s ease-in-out ;
+}
+.nav-center ul li a:hover::after{
+    width: 100%;
 }
 .nav-section .logo{
     height: 50px;
@@ -43,7 +67,7 @@
     margin: 30px 5px 0 0;
 }
 .hero-text span{
-    color: purple;
+    color: var(--mainColour);
 }
 .hero h1{
     font-size: 50px;
@@ -55,6 +79,6 @@
     border-radius: 10px;
 }
 .connect{
-    background-color: purple;
+    background-color: var(--mainColour);
     color: white;
 }
