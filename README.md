@@ -1,16 +1,83 @@
-# React + Vite
+# Kazungu Patrick Kahindi – Frontend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React to showcase my frontend engineering projects, technical skills, and real-world deployment experience.
 
-Currently, two official plugins are available:
+This portfolio demonstrates my ability to design, develop, optimize, and deploy scalable web applications using modern frontend technologies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 https://your-vercel-link.vercel.app  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+Frontend:
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+Backend Knowledge:
+- Node.js
+- Express.js
+- RESTful APIs
+
+Tools & Deployment:
+- Git & GitHub
+- Vercel
+- Google Analytics
+- SEO & Google Indexing
+
+---
+
+## 📂 Featured Projects
+
+### 1. Swifty – Payment Processing Platform
+A React-based payment interface designed for secure and efficient digital transactions.  
+Focus areas: UI architecture, component reusability, scalability.
+
+### 2. Safiri – Bus Booking System
+A transport booking platform with dynamic UI components and responsive design.  
+Focus areas: structured layout, user flow optimization.
+
+### 3. TrainLink – Train Booking Platform
+A booking interface built with React emphasizing clean design and usability.  
+Focus areas: user interaction and responsive performance.
+
+### 4. Kibandaski – Food Delivery Website
+A modern food ordering interface with structured layout and interactive components.
+
+### 5. Prolabs Africa – Consultation Website
+Corporate-style business website with responsive design and brand-focused layout.
+
+---
+
+## 💡 Key Capabilities Demonstrated
+
+- Responsive and adaptive web design
+- REST API integration
+- Clean and maintainable component architecture
+- Cross-browser compatibility
+- Performance optimization
+- Production deployment workflows
+- Analytics implementation and SEO configuration
+
+---
+
+## 📈 Professional Background
+
+I hold a Bachelor’s degree in Mathematics and Computer Science and a Full-Stack Web Development certification. I have built and deployed multiple real-world projects including booking systems, corporate platforms, and payment interfaces.
+
+I am passionate about crafting intuitive, high-performance web applications that balance usability, scalability, and clean architecture.
+
+---
+
+## 📦 Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/kazungu-p/portfolio.git

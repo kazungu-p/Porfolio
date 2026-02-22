@@ -1,0 +1,67 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5vw 0;
+    gap: 20px;
+}
+.services-heading{
+    font-size: 2em;
+    font-weight: 600;
+}
+.services-format{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.services-format:hover{
+    border: 2px solid #6E026F;
+    background-image: linear-gradient(135deg, #6E026F, #4D2B8C);
+    transform: scale(1.05);
+}
+
+.services-format:hover *{
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+    background: none !important;
+}
+.services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.services-format h3{
+    font-size: 28px;
+    font-weight: 600;
+}
+.services-format h2{
+    font-size: 38px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #6E026F 50%, #4D2B8C 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.4s;
+}
+
+.services-format p{
+    font-size: 20px;
+    line-height: 20px;
+    max-width: 300px;
+}
+.readmore{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+.readmore span{
+   font-size: 30px;
+}
