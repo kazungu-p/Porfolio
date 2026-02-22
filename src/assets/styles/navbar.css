@@ -9,6 +9,7 @@
 .nav-links{
     list-style: none;
     cursor: pointer;
+    font-size: 20px;
 }
 .nav-links{
     gap: 20px;
@@ -20,7 +21,7 @@
     border: none;
     border-radius: 7px;
     font-size: 15px;
-    background-color: purple;
+    background: linear-gradient(135deg, #6E026F, #4D2B8C);
     color: white;
 }
 .logo{

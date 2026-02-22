@@ -12,7 +12,7 @@ function Navbar() {
     return (
         <div className="navbar">
 
-            <img src="/images/passport-imag.jpeg" alt="website logo" className="logo" />
+            <img src="/images/logo.svg" alt="website logo" className="logo" />
 
             <ul className="nav-links">
                 <li>Home</li>

@@ -22,14 +22,14 @@
 .cta{
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 35px;
     font-size: 20px;
     font-weight: 400;
 }
 .hero-connect{
     padding: 10px 20px;
     border-radius: 10px;
-    background: purple;
+    background: linear-gradient(135deg, #6E026F, #4D2B8C);
     cursor: pointer;
     color: white;
     border: 0;
@@ -41,11 +41,7 @@
     cursor: pointer;
     outline: 0;
 }
-.hero-connect:hover{
-    border: 2px solid black;
-    transition: 0.3s ease-in-out;
-}
-.hero-resume:hover{
-    border: 2px solid purple;
-    transition: 0.3s ease-in-out;
+.hero-connect:hover, .hero-resume:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
 }
