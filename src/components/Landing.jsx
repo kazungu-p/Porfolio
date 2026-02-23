@@ -10,7 +10,7 @@ function Landing() {
                 <img src="/images/passport-imag.jpeg" alt="profile image" className="profile-img"/>
             </div>
             <span>― Kazungu Patrick</span>
-            <h1>Hello, my name's Kazungu. <br /> I'm a Front-End Developer.</h1>
+            <h1>Hello, my name is Kazungu. <br /> I'm a Front-End Developer.</h1>
             <div className="cta">
                 <div className="hero-connect">Connect with me</div>
                 <div className="hero-resume">My resume</div>
