@@ -7,7 +7,7 @@ function Services(){
     return(
         <div className="services" id="services">
             <div className="services-heading">
-                <h2>My Services</h2>
+                <h2>What I Do</h2>
             </div>
             <div className="services-container">
                 {servicesData.map((service, index)=>{

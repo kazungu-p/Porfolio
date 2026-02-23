@@ -15,6 +15,10 @@ function Projects() {
                     return <img key={index} src={project.projectImage} alt="" />
                 })}
             </div>
+            <div className="showmore">
+                <p>Show more</p>
+                <span>&rarr;</span>
+            </div>
         </div>
     )
 }
