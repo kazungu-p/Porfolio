@@ -52,6 +52,7 @@
 @media screen and (max-width: 760px) {
   .navbar{
     margin-top: 2%;
+    position: relative;
   }
   .logo{
     width: 30px;

@@ -82,6 +82,9 @@ transition: 0.4s;
     .footer-bottom-right{
         font-size: 16px;
     }
+    .footer-bottom-left{
+        font-size: 16px;
+    }
     .footer-top-right{
         display: flex;
         gap: 20px;

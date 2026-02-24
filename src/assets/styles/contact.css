@@ -5,6 +5,7 @@
     justify-content: center;
     gap: 5vw;
     margin: 5vw 12vw;
+    overflow: hidden;
 }
 .contact-heading{
     font-size: 2em;

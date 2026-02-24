@@ -4,6 +4,11 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+@media screen and (max-width: 760px){
+  *:hover {
+    transform: none !important;
+  }
+}
 .app{
     width: 90%;
     margin: auto;
