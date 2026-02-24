@@ -85,4 +85,8 @@ transition: 0.4s;
     .footer-subscribe{
         display: none;
     }
+    .footer-email-input input{
+        width: 90vw;
+        max-width: none;
+    }
 }
