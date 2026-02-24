@@ -88,6 +88,9 @@
     font-weight: 400;
 }
 @media screen and (max-width: 760px){
+    .about-heading{
+        font-size: 1.7em;
+    }
     .about-me-section{
         flex-direction: column;
         align-items: center;
@@ -106,11 +109,15 @@
     .my-skillset p{
         font-size: 20px;
     }
+    .skillset p{
+        font-size: 17px;
+    }
     .my-skillset hr{
         height: 6px;
     }
     .my-achievements{
         justify-content: space-between;
+        margin-bottom: 15vw;
     }
     .my-achievement{
         gap: 10px;
