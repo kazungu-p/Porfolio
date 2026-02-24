@@ -11,18 +11,26 @@
     cursor: pointer;
     font-size: 20px;
 }
+.nav-links .active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #6E026F;
+}
 .nav-links{
     gap: 20px;
 }
 .navbar button{
     cursor: pointer;
-    padding: 10px 15px;
+    padding: 10px 25px;
     outline: none;
     border: none;
     border-radius: 50px;
     font-size: 15px;
     background: linear-gradient(135deg, #6E026F, #4D2B8C);
     color: white;
+}
+.navbar button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 .logo{
     width: 50px;
@@ -34,4 +42,35 @@
     font-size: 25px;
     cursor: pointer;
     display: none;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+@media screen and (max-width: 750px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    max-height: 0%;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    background-color: white;
+    transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+    padding: 0 15px;
+  }
+  .nav-links{
+    flex-direction: column;
+  }
+  .nav-links.active {
+    max-height: 300px;
+    padding: 20px;
+    z-index: 1;
+  }
 }
