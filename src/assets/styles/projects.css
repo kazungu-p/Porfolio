@@ -16,18 +16,17 @@
 
 .portfolio-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* responsive columns */
-  gap: 20px; /* smaller gap to avoid overflow */
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px; 
   width: 100%;
-  max-width: 1200px; /* optional desktop max width */
   box-sizing: border-box;
-  justify-items: center; /* centers images inside each grid cell */
+  justify-items: center; 
 }
 
 .portfolio-container img {
   width: 100%;
-  max-width: 350px; /* keeps desktop size */
-  height: auto; /* maintain aspect ratio */
+  max-width: 350px; 
+  height: auto; 
   transition: transform 0.3s ease;
   cursor: pointer;
   border-radius: 10px;
@@ -55,7 +54,7 @@
   transition: 0.6s;
 }
 
-/* ================= MOBILE ================= */
+
 @media screen and (max-width: 760px) {
   .portfolio {
     gap: 25px;
