@@ -64,6 +64,7 @@
   .hamburger {
     display: block;
     color: #6E026F;
+    z-index: 2;
   }
 
   .nav-links {
