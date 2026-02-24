@@ -107,7 +107,7 @@
         align-items: center;
     }
     .my-skillset p{
-        font-size: 20px;
+        min-width: unset;
     }
     .skillset p{
         font-size: 17px;
@@ -115,9 +115,14 @@
     .my-skillset hr{
         height: 6px;
     }
+    .skillset:hover,
+    .my-achievement:hover{
+        transform: none;
+    }
     .my-achievements{
-        justify-content: space-between;
-        margin-bottom: 15vw;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
     .my-achievement{
         gap: 10px;
