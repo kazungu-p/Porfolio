@@ -47,11 +47,20 @@
 }
 
 @media screen and (max-width: 760px){
+    .landing{
+        margin: 10vw 0;
+    }
     .landing h1{
         width: 90%;
-        font-size: 2em;
+        font-size: 2.3em;
     }
     .profile-img{
         width: 150px;
+    }
+    .cta{
+        gap: 20px;
+    }
+    .hero-connect, .hero-resume{
+        padding: 8px 20px;
     }
 }
