@@ -26,7 +26,7 @@ function Projects() {
       variants={containerVariants}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: false, amount: 0.3 }} 
+      viewport={{ once: false, amount: 0.3 }}
     >
       <div className="portfolio-heading">
         <h2>My latest projects</h2>
@@ -50,10 +50,13 @@ function Projects() {
         ))}
       </div>
 
-      <div className="showmore">
-        <p>Show more</p>
-        <span>&rarr;</span>
-      </div>
+      <a href="https://github.com/kazungu-p" target="blank">
+        <div className="showmore">
+          <p>Show more</p>
+          <span>&rarr;</span>
+        </div>
+      </a>
+
     </motion.div>
   );
 }

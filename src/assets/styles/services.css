@@ -68,7 +68,7 @@
 }
 @media screen and (max-width: 760px){
     .services-heading{
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
     .services-format{
         gap: 20px;

@@ -45,12 +45,12 @@
 }
 @media screen and (max-width:760px){
     .portfolio-heading{
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
     .portfolio-container{
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 5vw;
     }
     .portfolio-container img{
         width: 100%;
