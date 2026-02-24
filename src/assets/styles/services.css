@@ -71,19 +71,33 @@
         font-size: 1.5em;
     }
     .services-format{
-        gap: 20px;
-        padding: 32px;
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
     }
     .services-format h2{
         font-size: 28px;
     }
+    .services-format h3{
+        font-size: 22px;
+    }
     .services-format p{
         font-size: 18px;
         line-height: 32px;
-        max-width: 300px;
+        max-width: 100%;
     }
     .services-container{
        display: flex;
        flex-direction: column;
+       align-items: center;
+       gap: 20px;
+       width: 100%;
+    }
+    .readmore{
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .readmore span{
+        font-size: 24px;
     }
 }
