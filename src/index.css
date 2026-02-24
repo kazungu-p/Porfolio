@@ -1,19 +1,25 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-@media screen and (max-width: 760px){
+@media screen and (max-width: 760px) {
   *:hover {
     transform: none !important;
   }
 }
-.app{
-    width: 90%;
-    margin: auto;
+.app {
+  width: 90%;
+  max-width: 100%;
+  margin: auto;
 }
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body{
+  width: 100%;
+  overflow-x: hidden;
+  max-width: 100%;
 }
