@@ -50,12 +50,15 @@
 }
 
 @media screen and (max-width: 760px) {
+  .navbar{
+    margin-top: 2%;
+  }
   .logo{
     width: 30px;
     height: 30px;
   }
   .navbar button{
-    font-size: 13px;
+    font-size: 15px;
     padding: 8px 20px;
   }
   .hamburger {
