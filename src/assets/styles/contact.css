@@ -96,12 +96,12 @@
         align-items: center;
     }
     .contact-left h2{
-        font-size: 1em;
+        font-size: 1.3em;
     }
     .contact-left p{
-        width: 100%;
+        width: fit-content;
     }
     .contact-right input, .contact-right textarea{
-        width: 100%;
+        width: fit-content;
     }
 }
