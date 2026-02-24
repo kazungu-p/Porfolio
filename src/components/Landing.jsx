@@ -49,7 +49,8 @@ function Landing() {
         viewport={{ once: false, amount: 0.2 }}
         variants={itemVariants}
       >
-        <div className="hero-connect">Connect with me</div>
+        <a href="#contact"><div className="hero-connect">Connect with me</div></a>
+        
         <div className="hero-resume">My resume</div>
       </motion.div>
     </motion.div>

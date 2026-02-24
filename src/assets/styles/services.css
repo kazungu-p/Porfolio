@@ -66,3 +66,24 @@
 .readmore span{
    font-size: 30px;
 }
+@media screen and (max-width: 760px){
+    .services-heading{
+        font-size: 2em;
+    }
+    .services-format{
+        gap: 20px;
+        padding: 32px;
+    }
+    .services-format h2{
+        font-size: 28px;
+    }
+    .services-format p{
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 300px;
+    }
+    .services-container{
+       display: flex;
+       flex-direction: column;
+    }
+}

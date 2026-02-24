@@ -28,7 +28,7 @@ function Navbar() {
                 <a href="#contact" onClick={() => { setActiveMenu("contact"); closeMenu() }} className={activeMenu === "contact" ? "active" : ""}>Contact</a>
             </ul>
             <div className="nav-right">
-                <button>Connect With Me</button>
+                <a href="#contact"><button>Connect With Me</button></a>
 
                 <div className="hamburger" onClick={toggleMenu}>
                     {menuOpen ? "\u2715" : "\u2630"}

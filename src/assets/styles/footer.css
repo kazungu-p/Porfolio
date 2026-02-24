@@ -66,3 +66,12 @@ transition: 0.4s;
     display: flex;
     gap: 50px;
 }
+@media screen and (max-width: 760px){
+    .footer-top, .footer-bottom{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-top-left p{
+        width: fit-content;
+    }
+}
