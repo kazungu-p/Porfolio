@@ -28,7 +28,7 @@
 }
 .hero-connect{
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     background: linear-gradient(135deg, #6E026F, #4D2B8C);
     cursor: pointer;
     color: white;
@@ -37,7 +37,7 @@
 .hero-resume{
     border: 2px solid black;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     cursor: pointer;
     outline: 0;
 }

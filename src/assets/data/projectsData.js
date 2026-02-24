@@ -26,8 +26,8 @@ const projectsData =[
     },
     {
         index:6,
-        projectName:"",
-        projectImage:""
+        projectName:"Train link",
+        projectImage:"/images/train-link.png"
     },
 ]
 

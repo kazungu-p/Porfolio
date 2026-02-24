@@ -11,7 +11,7 @@ function Contact() {
             <div className="contact-section">
                 <div className="contact-left">
                     <h2>Let's talk</h2>
-                    <p>If you have a question, an idea, or just want to connect, I’d love to hear from you.Feel free to reach out anytime—I’m always happy to help and will get back to you as soon as possible.</p>
+                    <p>If you have a question, an idea, or just want to connect, I’d love to hear from you. Feel free to reach out anytime—I’m always happy to help and will get back to you as soon as possible.</p>
                     <div className="contact-details">
                         <div className="contact-detail">
                             <img src="/images/envelope-regular-full.svg" alt="email icon" /><p>patrickkazungu.me7@gmail.com</p>
