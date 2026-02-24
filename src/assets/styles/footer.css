@@ -74,4 +74,8 @@ transition: 0.4s;
     .footer-top-left p{
         width: fit-content;
     }
+    .footer-top-right{
+        display: flex;
+        gap: 20px;
+    }
 }
