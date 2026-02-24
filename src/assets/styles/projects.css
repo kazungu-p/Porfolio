@@ -44,6 +44,9 @@
     transition: 0.6s;
 }
 @media screen and (max-width:760px){
+    .portfolio{
+        gap: 25px;
+    }
     .portfolio-heading{
         font-size: 1.5em;
     }
