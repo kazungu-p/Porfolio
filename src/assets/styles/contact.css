@@ -1,7 +1,13 @@
-.contact{
+.contact, .contact-section, .contact-left, .contact-details, .contact-detail, .contact-right form {
     display: flex;
+}
+.contact, .contact-left, .contact-details, .contact-right form{
     flex-direction: column;
+}
+.contact, .contact-detail{
     align-items: center;
+}
+.contact{
     justify-content: center;
     gap: 5vw;
     margin: 5vw 12vw;
@@ -11,12 +17,10 @@
     font-weight: 600;
 }
 .contact-section{
-    display: flex;
     gap: 5vw;
+    overflow: hidden;
 }
 .contact-left{
-    display: flex;
-    flex-direction: column;
     gap: 25px;
     width: 50%;
 }
@@ -34,21 +38,15 @@
     line-height: 30px;
 }
 .contact-details{
-    display: flex;
-    flex-direction: column;
     gap: 25px;
 }
 .contact-detail{
-    display: flex;
-    align-items: center;
     gap: 20px;
 }
 .contact-detail img{
     width: 30px;
 }
 .contact-right form{
-    display: flex;
-    flex-direction: column;
     align-items: start;
     gap: 20px;
 }
