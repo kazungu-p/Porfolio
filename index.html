@@ -1079,8 +1079,8 @@
       btn.disabled = true;
 
       const formData = new FormData(this);
-      // Replace with your Web3Forms access key if deploying
-      formData.append('access_key', '');
+      
+      formData.append('access_key', '20b48a89-153a-4644-a4e7-f620df3c359b');
 
       try {
         const res = await fetch('https://api.web3forms.com/submit', { method: 'POST', body: formData });
